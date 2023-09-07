@@ -2,13 +2,13 @@
 /**
  * main - main function
  *
- * Return: 0 on success
+ * Return : 0 on success
  */
 int main(void)
-{	printf("Size of a char : %lu byte(s)", sizeof(char));
-	printf("size of int : %lu byte(s)", sizeof(int));
-	printf("size of a long int : %lu byte(s)", sizeof(long int));
-	printf("size of long long int : %lu byte(s)", sizeof(long long int));
-	printf("Size of a float : %lu byte(s)", sizeof(float));
+{	printf("Size of a char : %u byte(s)", sizeof(char));
+	printf("size of int : %u byte(s)", sizeof(int));
+	printf("size of a long int : %u byte(s)", sizeof(long int));
+	printf("size of long long int : %u byte(s)", sizeof(long long int));
+	printf("Size of a float : %u byte(s)", sizeof(float));
 	return (0 :);
 }
