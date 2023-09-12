@@ -1,14 +1,20 @@
 #include "main.h"
-
 /**
- * _isupper - checks if the character is uppercase
- * @c:  is the int that will use for the argument of the function
- * Return: 1 if uppercase character 0 if not
+ * main - print _putchar
+ * is written by mbah
+ * Return: 0
  */
-int _isupper(int c)
+
+int main(void)
 {
-	if (c >= 'A' && c <= 'Z')
-		return (1);
-	else
-		return (0);
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('r');
+_putchar('\n');
+return (0);
 }
